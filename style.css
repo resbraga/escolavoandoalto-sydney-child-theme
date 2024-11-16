@@ -1,0 +1,310 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.relative {
+	position: relative;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.red {
+	color: #d00;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.margin-left-5 {
+	margin-left: 5px;
+}
+
+#secondary, #secondary .widget-title {
+	color: inherit !important;
+}
+
+#secondary a {
+	color: #c00 !important;
+}
+
+
+@media only screen and (min-width: 1024px){
+
+	.hidden {
+		visibility: hidden;
+	}
+
+	.site-header {
+		background-color: rgba(255,255,255,0.9);
+	}
+
+	.float-header {
+		visibility: visible !important;
+	}
+
+	.menu-width {
+		width: 50%;
+	}
+
+	.title-width {
+		width: 50%;
+	} 
+}
+
+@media only screen and (max-width: 1024px){
+
+	.menu-width {
+		width: 20%;
+	}
+
+	.title-width {
+		width: 80%;
+	} 
+}
+
+@media only screen and (max-width: 701px){
+
+	.menu-width {
+		width: 100%;
+	}
+
+	.title-width {
+		width: 100%;
+	} 
+
+	.col-3 {
+		width: 100%;
+		display: inline-block;
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width: 701px){
+	.site-title {
+		padding: 10px 0 0 20px;
+		font-size: 40px !important;
+	}
+
+	.site-logo {
+		max-height: 70px;
+	}
+
+	.logo-rede {
+		max-height:120px;
+		z-index: 3;
+		position: absolute;
+		right: 5px;
+		bottom: 40px;
+	}
+
+	.slider-font {
+		font-size: 64px;
+	}
+
+	.col-3 {
+		width: 33.3333333333%;
+		display: inline-block;
+		padding: 5px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.site-title {
+		padding: 10px 0 0 20px;
+		font-size: 30px !important;
+	}
+
+	.site-logo {
+		max-height: 50px;
+	}
+
+	.logo-rede {
+		max-height:90px;
+		z-index: 3;
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+	}
+
+	.header-wrap {
+		text-align: center;
+	}
+
+	.slider-font {
+		font-size: 34px;
+	}
+}
+
+#mainnav ul li a {
+	padding-top: 20px;
+	font-weight: bolder;
+}
+
+.logo-wrapper {
+	width:100%;
+}
+
+.site-logo-slider {
+	width: 25%;
+	height: auto;
+}
+
+.roll-button,
+.widget-area .widget-title,
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	font-size: 24px !important;
+}
+
+.fp-content-area {
+	color: #cc0000;
+}
+
+.btn-menu {
+ color: #000066;
+}
+
+.roll-icon-box .content h3,
+.roll-team .team-content .name,
+.roll-team .team-item .team-pop .name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.roll-testimonials .name {
+	font-size: 24px;
+}
+
+.overlay {
+	opacity: 0.20 !important;
+}
+
+.wpcf7-form-control {
+	width:100%;
+	max-width: 320px;
+}
+
+.wpcf7-textarea {
+	max-width: 500px;
+}
+
+.img-btn-title {
+	font: 50px/1.1 "Amatic SC", sans-serif;	
+	height: 100%;    
+	left: 0;
+    float: left;
+	padding-top: 90px;
+	position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-efect {
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 700;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-efect:hover {
+	background-color: #cc0000;
+	opacity:0.7;
+	color: #fff !important;
+}
+
+.footer-widgets {
+	padding: 50px 0 20px 0 !important;
+}
+
+.news-form {
+	padding: 20px 0 20px 0;
+}
+
+/* Paginas */
+
+.page-wrap {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+
+/* Artigos */
+
+.entry-header {
+	margin-bottom: 0 !important;
+}
+
+.title-post {
+	color: #cc0000;
+	font-size: 40px !important;
+}
+
+.content-area {
+	text-align: justify;
+}
+
+.gallery-item {
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px){
+	.post-wrap {
+		width: 900px !important;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.post-wrap {
+		width: 800px !important;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.post-wrap {
+		width: 700px !important;
+		margin: 0 auto;
+	}
+}
+
+/* Override */
+
+select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	height: 40px !important;
+}
+
+.mc4wp-form-fields .news-form .col-3 input[type="submit"]:hover {
+	color: #d00;
+	border-color: #d00;
+	background-color: #fff;
+}
