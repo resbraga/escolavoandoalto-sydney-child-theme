@@ -164,11 +164,6 @@ Text Domain: sydney
 	width:100%;
 }
 
-.site-logo-slider {
-	width: 25%;
-	height: auto;
-}
-
 .roll-button,
 .widget-area .widget-title,
 button, input[type="button"], input[type="reset"], input[type="submit"] {
@@ -307,4 +302,37 @@ select, input[type="text"], input[type="password"], input[type="datetime"], inpu
 	color: #d00;
 	border-color: #d00;
 	background-color: #fff;
+}
+
+/* Slider */
+
+.maintitle{
+	color:#fff;
+}
+
+.subtitle {
+	color:#fff;
+}
+
+.site-logo-slider {
+	width: 25%;
+	height: auto;
+}
+
+/* Header */
+
+.main-header {
+	background-color: rgba(255,255,255,0.9) !important;
+	border-bottom: none !important;
+}
+
+.header-search {
+	display:none;
+}
+
+#primary-menu a {
+	font-family: "Amatic SC";
+	font-size: 26px;
+	color: #000066 !important;
+	font-weight: bolder !important;
 }
