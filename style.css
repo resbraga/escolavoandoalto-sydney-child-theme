@@ -61,6 +61,10 @@ Text Domain: sydney
 		visibility: visible !important;
 	}
 
+	.site-logo-slider {
+		width:auto !important;
+	}
+
 	.menu-width {
 		width: 50%;
 	}
@@ -114,13 +118,17 @@ Text Domain: sydney
 		position: absolute;
 		right: 5px;
 		bottom: 40px;
+	}	
+
+	.site-logo-slider {
+		width:140px!important;
 	}
 
 	.slider-font {
 		font-size: 64px;
 	}
 
-	.col-3 {
+		.col-3 {
 		width: 33.3333333333%;
 		display: inline-block;
 		padding: 5px;
@@ -132,6 +140,10 @@ Text Domain: sydney
 	.site-title {
 		padding: 10px 0 0 20px;
 		font-size: 30px !important;
+	}
+
+	.site-logo-slider {
+		width:70px !important;
 	}
 
 	.site-logo {
@@ -315,8 +327,12 @@ select, input[type="text"], input[type="password"], input[type="datetime"], inpu
 }
 
 .site-logo-slider {
-	width: 25%;
-	height: auto;
+	height: auto !important;
+	position: relative !important;
+	left: auto !important;
+	top: auto !important;
+	z-index: auto !important;
+	vertical-align: middle !important;
 }
 
 /* Header */
@@ -335,4 +351,21 @@ select, input[type="text"], input[type="password"], input[type="datetime"], inpu
 	font-size: 26px;
 	color: #000066 !important;
 	font-weight: bolder !important;
+}
+
+.col-sm-4 {
+	width: max-content;
+	height: auto;
+}
+
+.sydney-offcanvas-menu{
+	background-color: #fff !important;
+}
+
+.sydney-offcanvas-menu div.row.valign {
+	flex-direction: column;
+}
+
+.sydney-offcanvas-menu div.col-xs-8{
+	width: 100%;	
 }
